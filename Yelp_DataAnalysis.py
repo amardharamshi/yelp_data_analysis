@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the Yelp dataset into a Pandas DataFrame
-df = pd.read_csv(r"C:\Users\Amar\Desktop\yelp-dataset\yelp_business.csv")
+df = pd.read_csv("yelp_business.csv")
 df
 
 
@@ -16,7 +16,7 @@ df
 # In[8]:
 
 
-df2 = pd.read_csv(r"C:\Users\Amar\Desktop\yelp-dataset\yelp_review.csv")
+df2 = pd.read_csv("yelp_review.csv")
 df2
 
 
